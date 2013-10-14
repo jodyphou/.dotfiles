@@ -1,0 +1,1 @@
+/home/n1nja/.vimrc
