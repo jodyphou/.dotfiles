@@ -1,0 +1,99 @@
+! Xcursor --------------------------------------------------------------------
+
+ Xcursor*theme: Vanilla-DMZ-AA
+ Xcursor.size:  22
+
+! rxvt-unicode ---------------------------------------------------------------
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:     /usr/bin/chromium
+URxvt.matcher.button:   1
+URxvt.fading:15
+!URxvt.fadeColor:Green
+URxvt.transparent:true
+URxvt.tintColor:Grey
+URxvt.shading:25
+URxvt.scrollBar:false
+URxvt.saveLines:1024
+URxvt.utf8: 1
+URxvt.imLocale: en_US.UTF-8
+URxvt.boldMode: true
+URxvt.inheritPixmap: false
+URxvt.internalBorder: 10
+URxvt.borderless: true
+URxvt.jumpScroll: true
+URxvt.multiScroll: true
+URxvt.scrollKey: true
+URxvt.scrollTtOutput: false
+
+URxvt.keysym.C-C: perl:clipboard:copy
+URxvt.keysym.C-V: perl:clipboard:paste
+
+
+URxvt.font: xft:Terminus:pixelsize=14:antialias=false:hinting=false:autohint=false, xft:Terminess Powerline:pixelsize=16:antialias=true:hinting=true:autohint=false
+URxvt.boldFont:xft:Terminus:bold:pixelsize=14:antialias=false:hinting=false:autohint=false, xft:Terminess Powerline:pixelsize=16:antialias=true:hinting=true:autohint=false
+
+!This makes manpages nice
+*colorBD:  #A0FF00
+*colorUL:  #0080FF              
+*colorIT:  #8000FF
+
+
+*throughColor:     #ff00ff
+*highlightColor:   #404040
+
+! --- special colors ---
+
+*background: #0d1926
+*foreground: #d9e6f2
+
+! --- standard colors ---
+
+! black
+*color0: #0d1926
+
+! bright_black
+*color8: #3A3A4C
+
+! red
+*color1: #b87a7a
+
+! bright_red
+*color9: #954B44
+
+! green
+*color2: #7ab87a
+
+! bright_green
+*color10: #bddbbd
+
+! yellow
+*color3: #7C3D5A
+
+! bright_yellow
+*color11: #793B5C
+
+! blue
+*color4: #A83246
+
+! bright_blue
+*color12: #EABD9A
+
+! magenta
+*color5: #8A576C
+
+! bright_magenta
+*color13: #67677B
+
+! cyan
+*color6: #7ab8b8
+
+! bright_cyan
+*color14: #bddbdb
+
+! white
+*color7: #d9d9d9
+
+! bright_white
+*color15: #222222
+
