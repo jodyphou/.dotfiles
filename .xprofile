@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# start apps:
+#compton -c -o 0.25 -l -9 -t -9 -r 6 &
+#clipit &
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+# launch wm:
+#exec i3
+
