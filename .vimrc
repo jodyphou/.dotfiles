@@ -20,7 +20,7 @@ set ttymouse=xterm2
 " Always show statusline
 set laststatus=2
 set background=dark
-colorscheme getfresh
+colorscheme solarized
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
 
