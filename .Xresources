@@ -1,12 +1,9 @@
-! Xcursor --------------------------------------------------------------------
-
- Xcursor*theme: Vanilla-DMZ-AA
- Xcursor.size:  22
-
 ! rxvt-unicode ---------------------------------------------------------------
+! --[ Font Rendering ]-------------------------------------
+
 URxvt.termName: rxvt-unicode-256color
 URxvt.urgentOnBell: True
-URxvt.perl-ext-common:  default,matcher
+URxvt.perl-ext-common: ...,tabbed,... 
 URxvt.url-launcher:     /usr/bin/chromium
 URxvt.matcher.button:   1
 URxvt.fading:15
@@ -30,9 +27,62 @@ URxvt.scrollTtOutput: false
 URxvt.keysym.C-C: perl:clipboard:copy
 URxvt.keysym.C-V: perl:clipboard:paste
 
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.hintstyle: hintslight
 
-URxvt*font: xft:Terminus:pixelsize=14:antialias=false:hinting=false:autohint=false, xft:Terminess Powerline:pixelsize=16:antialias=true:hinting=true:autohint=false
-URxvt*boldFont:xft:Terminus:bold:pixelsize=14:antialias=false:hinting=false:autohint=false, xft:Terminess Powerline:pixelsize=16:antialias=true:hinting=true:autohint=false
+!URxvt*font:xft:Terminus:regular:pixelsize:14, \
+!xft:Terminess Powerline:regular:pixelsize:14, \
+!xft:Droid Sans Mono for Powerline:regular:pixelsize:14, \
+!xft:Droid Sans:regular:pixelsize:14, \
+!xft:Inconsolata for Powerline:pixelsize:14, \
+!xft:WenQuanYi Bitmap Song:size=8, \
+!xft:FreeSerif:style=Regular, \
+!xft:unifont:style=Medium:antialias=false
+
+!URxvt*font: xft:Terminus:pixelsize=14:antialias=false:hinting=false:autohint=false,\
+!    xft:Terminess Powerline:style=Medium, \
+!    xft:PowerlineSymbols:medium:pixelsize=15, \
+!    xft:Inconsolata for Powerline:size=12, \
+!    xft:Inconsolata\-dz:style=dzForPowerline:pixelsize=12:antialias=true:hinting=slight, \
+!    xft:Code2000:antialias=false
+!URxvt*boldFont:xft:Terminus:bold:pixelsize=14:antialias=false:hinting=false:autohint=false,\
+!    xft:Terminess Powerline:pixelsize=12, \
+!    xft:PowerlineSymbols:medium:pixelsize=12, \
+!    xft:Inconsolata\-dz:style=bold:pixelsize=12:antialias=true:hinting=slight
+
+!URxvt*imFont:               xft:Monaco for Powerline:regular:size=8
+!URxvt*italicFont:           xft:Monaco for Powerline:italic:size=8
+!URxvt*boldItalicFont:       xft:Monaco for Powerline:bold:italic:size=8
+
+!!! Font Setting
+!Xft.dpi:96
+!Xft.antialias: True
+!Xft.hinting: True
+!Xft.hintstyle: hintslight
+!Xft.lcdfilter: lcddefault
+!Xft.rgba: rgb
+!
+!
+
+!URxvt*font:                 xft:Terminess Powerline:regular:size=12,xft:Menlo for Powerline:regular:size=12
+URxvt*font:                 xft:Menlo for Powerline:regular:size=9
+URxvt*imFont:               xft:Menlo for Powerline:regular:size=9
+URxvt*boldFont:             xft:Menlo for Powerline:bold:size=9
+URxvt*italicFont:           xft:Menlo for Powerline:italic:size=9
+URxvt*boldItalicFont:       xft:Menlo for Powerline:bold:italic:size=9
+URxvt*letterSpace              : -2
+
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 3
+URxvt.tabbed.tab-bg: 0
+
+
+
+
 
 !This makes manpages nice
 *colorBD:  #A0FF00
